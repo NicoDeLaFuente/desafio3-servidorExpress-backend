@@ -1,45 +1,13 @@
 import express from 'express';
 import { ProductManager } from './productManager.js';
 
-const product1 ={
-    "title": "Ejemplo1",
-    "description": "ejemplo1 description",
-    "price": 200,
-    "thumbnail": "sin imagen",
-    "code": "abc123",
-    "stock": 20,
-    "id": 1
-}
-const product2 = {
-    "title": "Ejemplo2",
-    "description": "ejemplo2 description",
-    "price": 500,
-    "thumbnail": "sin imagen",
-    "code": "abc1234",
-    "stock": 1,
-    "id": 2
-}
-const product3 ={
-    "title": "Ejemplo3",
-    "description": "ejemplo3 description",
-    "price": 500,
-    "thumbnail": "sin imagen",
-    "code": "acas342",
-    "stock": 10,
-    "id": 3
-}
-
-// instancio la clase para crear el documento con los productos.
+// instancio la clase para crear el documento donde se guardaran los productos.
 const products = new ProductManager("./src/products.json");
-//productos agregados en el json. 
-/* products.addProduct(product1);
-products.addProduct(product2);
-products.addProduct(product3); */
 
-
-
+//incializo el modulo de express.
 const app = express();
 
+//creacion de los endpoints.
 app.get('/products', async (req, res) => {
     const { limit } = req.query;
 
@@ -78,6 +46,7 @@ app.get('/products/:pid', async (req, res) => {
     }
 })
 
+//el servidor se aloja en el puerto 8080. 
 app.listen(8080, () => {
     console.log("El servidor esta escuchando al puerto 8080");
 })
