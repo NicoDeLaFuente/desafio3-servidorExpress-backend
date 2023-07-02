@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Ejemplo1",
+        "description": "ejemplo1 description",
+        "price": 200,
+        "thumbnail": "sin imagen",
+        "code": "abc123",
+        "stock": 20,
+        "id": 1
+    },
+    {
+        "title": "Ejemplo2",
+        "description": "ejemplo2 description",
+        "price": 500,
+        "thumbnail": "sin imagen",
+        "code": "abc1234",
+        "stock": 1,
+        "id": 2
+    },
+    {
+        "title": "Ejemplo3",
+        "description": "ejemplo3 description",
+        "price": 500,
+        "thumbnail": "sin imagen",
+        "code": "acas342",
+        "stock": 10,
+        "id": 3
+    },
+    {
+        "title": "Ejemplo4",
+        "description": "ejemplo4 description",
+        "price": 150,
+        "thumbnail": "sin imagen",
+        "code": "zxc123",
+        "stock": 10,
+        "id": 4
+    },
+    {
+        "title": "Ejemplo5",
+        "description": "ejemplo5 description",
+        "price": 200,
+        "thumbnail": "sin imagen",
+        "code": "zxc456",
+        "stock": 10,
+        "id": 5
+    },
+    {
+        "title": "Ejemplo6",
+        "description": "ejemplo6 description",
+        "price": 500,
+        "thumbnail": "sin imagen",
+        "code": "zxc678",
+        "stock": 10,
+        "id": 6
+    },
+    {
+        "title": "Ejemplo7",
+        "description": "ejemplo7 description",
+        "price": 800,
+        "thumbnail": "sin imagen",
+        "code": "zxc789",
+        "stock": 50,
+        "id": 7
+    },
+    {
+        "title": "Ejemplo8",
+        "description": "ejemplo8 description",
+        "price": 500,
+        "thumbnail": "sin imagen",
+        "code": "zxc980",
+        "stock": 10,
+        "id": 8
+    },
+    {
+        "title": "Ejemplo9",
+        "description": "ejemplo9 description",
+        "price": 400,
+        "thumbnail": "sin imagen",
+        "code": "zxc873",
+        "stock": 10,
+        "id": 9
+    },
+    {
+        "title": "Ejemplo10",
+        "description": "ejemplo10 description",
+        "price": 320,
+        "thumbnail": "sin imagen",
+        "code": "zxc091",
+        "stock": 10,
+        "id": 10
+    }
+]
